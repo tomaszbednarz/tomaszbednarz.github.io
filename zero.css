@@ -1,0 +1,12 @@
+
+body {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    color: #5a5a5a;
+}
+
+/* Hyperlinks */
+a, a:visited, a:hover { color: #000; text-decoration: none; }
+a.nav, a.nav:visited { color: #888; font-weight: normal; }
+a:hover, a.nav:hover { color: #33f; }
+
