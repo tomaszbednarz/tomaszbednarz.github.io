@@ -107,7 +107,16 @@
           <li class="list-group-item d-flex justify-content-between lh-condensed bg-light">
             <div>
 
-              {{ content }}
+
+{% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}              
+             
               
               <p>Director, <a href="http://epicentre.matters.today">Expanded Perception and Interaction Centre (EPICentre)</a><br /> 
                 <small class="text-muted">UNSW Art and Design</small></p>
