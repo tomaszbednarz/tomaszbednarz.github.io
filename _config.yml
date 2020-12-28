@@ -2,6 +2,9 @@ theme: jekyll-theme-slate
 title: Tomasz Bednarz
 description: Personal Website
 
+include:
+ - _pages
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
