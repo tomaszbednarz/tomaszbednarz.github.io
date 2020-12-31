@@ -1,0 +1,50 @@
+<div class="row align-items-center my-5">
+    {% for section in page.sections %}
+    {% if section.section_id == "carousel" %}
+    <div class="col-lg-7">
+        <div id="carouselHome" class="carousel slide mb-4 mb-lg-0" data-ride="carousel">
+            {% if section.carousel_indicators %}
+            <ol class="carousel-indicators">
+                {% for i in (0..section.images.size) %}
+                {% if forloop.first %}
+                <li data-target="#carouselHome" data-slide-to="{{i}}" class="active"></li>
+                {% elsif forloop.last == false %}
+                <li data-target="#carouselHome" data-slide-to="{{i}}"></li>
+                {% endif %}
+                {% endfor %}
+            </ol>
+            {% endif %}
+            <div class="carousel-inner" role="listbox">
+                {% for image in section.images %}
+                {% if forloop.first %}
+                <div class="carousel-item active">
+                {% else %}
+                <div class="carousel-item">
+                {% endif %}
+                    <img class="d-block img-fluid" src="{{ image.image }}" alt="{{ image.description }}">
+                </div>
+                {% endfor %}
+            </div>
+            {% if section.carousel_control_prev %}
+            <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            {% endif %}
+            {% if section.carousel_control_next %}
+            <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+    {% if section.section_id == "about_text" %}
+    <div class="col-lg-5">
+        <h1 class="font-weight-light">{{ section.title }}</h1>
+        <p>{{ section.content }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>

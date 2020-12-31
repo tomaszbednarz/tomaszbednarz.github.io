@@ -1,18 +1,22 @@
-theme: jekyll-theme-slate
-title: Tomasz Bednarz
+baseurl: "/"
+title: Tomasz Bednarz 2
 description: Personal Website
 twitter_username: tomaszbednarz
 
 include:
  - _pages
 
+markdown: kramdown
+# theme: minima
+
 plugins:
- - jekyll-paginate
- - jekyll-sitemap
- - jekyll-gist
- - jemoji
+# - jekyll-paginate
+# - jekyll-sitemap
+# - jekyll-gist
+# - jemoji
  - jekyll-feed
  - jekyll-seo-tag
+ - liquid
 
 #defaults:
   # _posts
