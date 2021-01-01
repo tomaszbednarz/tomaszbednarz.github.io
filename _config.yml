@@ -1,6 +1,9 @@
 baseurl: "/"
-title: Tomasz Bednarz 2
+title: Tomasz Bednarz
 description: Personal Website
+author: 
+  name: Tomasz Bednarz
+  email: firstname.surname@gmail.com
 twitter_username: tomaszbednarz
 
 include:

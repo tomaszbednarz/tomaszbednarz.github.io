@@ -1,0 +1,7 @@
+- title: Home
+  url: /
+- title: Group of Things
+  url: /group/
+  sublinks: 
+    - title: Item 1
+      url: /item1
