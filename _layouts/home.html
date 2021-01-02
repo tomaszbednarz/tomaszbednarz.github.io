@@ -7,6 +7,83 @@ layout: default
 <hr />
 {% endcomment %}
 
-<div class="bg-light p-5 rounded">
-{{ content }}
+<div class="row align-items-center my-5">
+    <div class="col-lg-7">
+        <img class="img-fluid rounded mb-4 mb-lg-0" src="/images/home-carousel/c1.jpg" alt="">
+    </div>
+    <div class="col-lg-5">
+        {% for section in page.sections %}
+        {% if section.section_id == "about_text" %}   
+        <h1 class="font-weight-light">{{ section.title }}</h1>
+        <p>{{ section.content }}</p>
+        {% endif %}
+        {% endfor %}
+    </div>
 </div>
+<hr />
+<div class="row"> 
+    <div class="col-lg-8">
+        <small class="text-muted">
+        {{ content }}
+        </small>
+    </div>
+    <div class="col-md-4">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-muted">About me</span>
+            <span class="badge rounded-pill bg-secondary">TB</span>
+        </h4>
+        <ul class="list-group mb-3">
+
+            <li class="list-group-item d-flex justify-content-between lh-condensed bg-light">
+              <div>       
+                
+                <p>Director, <a href="http://epicentre.matters.today">Expanded Perception and Interaction Centre (EPICentre)</a><br /> 
+                  <small class="text-muted">UNSW Art and Design</small></p>
+        
+                <p>Team Leader, Visual Analytics<br /> 
+                  Leader, Simulation and Modelling CCC<br /> 
+                    <small class="text-muted">CSIRO's Data61</small></p>
+  
+                <hr />
+        
+                <p>Adjunct Associate Professor<br /> 
+                  <small class="text-muted">University of South Australia, School of Information Technology and Mathematical Sciences,
+                    Australian Research Centre for Interactive and Virtual Environments
+                  </small></p>
+          
+                {% comment %}
+                <p>Adjunct Associate Professor<br /> 
+                  <small class="text-muted">Queensland University of Technology, School of Mathematical Sciences         
+                  </small></p>
+                {% endcomment %}
+  
+                <hr />
+  
+                <p>ACM SIGGRAPH<br /> 
+                  <small class="text-muted">
+                    <a href="https://www.siggraph.org/external-relations-committee/">External Relations Committee Chair</a><br />
+                    <a href="https://s2021.siggraph.org/siggraph-2021-committee/">SIGGRAPH 2021 Frontiers Program Chair</a><br />
+                    <a href="https://sa2020.siggraph.org/en/about-us/siggraph-asia-2020-committee/posters-technical-communications-committee">SIGGRAPH Asia 2020 Posters and Technical Communications Chair</a><br />
+                    <a href="https://sa2020.siggraph.org/en/about-us/siggraph-asia-2020-committee">SIGGRAPH Asia Conference Advisory Group</a><br />
+                    <a href="https://sa2019.siggraph.org/">SIGGRAPH Asia 2019 Conference Chair</a><br />    
+                  </small></p>
+  
+                <hr />
+  
+                <p>LINKS<br />
+                  <small class="text-muted">
+                    LinkedIn <a href="http://au.linkedin.com/in/tomaszpbednarz">@tomaszpbednarz</a><br />
+                    Twitter <a href="https://twitter.com/tomaszbednarz">@tomaszbednarz</a><br />
+                    Instagram <a href="http://instagram.com/tomaszbednarz">@tomaszbednarz</a><br />
+                    ORCID <a href="https://orcid.org/0000-0001-9240-0922">0000-0001-9240-0922</a>
+                  </small>
+                </p>    
+  
+              </div>
+            </li>
+        </ul>
+ 
+    </div>
+</div>
+<hr />
+
