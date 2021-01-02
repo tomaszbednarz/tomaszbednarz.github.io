@@ -1,0 +1,133 @@
+education:
+  - degree: MBA (Technology)
+    university: AGSM, University of New South Wales (UNSW)
+    location: Sydney, Australia
+    url: https://www.business.unsw.edu.au/degrees-courses/postgraduate/mba/agsm-mba-technology
+    time: 2018 - 2020
+    details:
+  - degree: Graduate Certificate of Business Administration (Executive)
+    university: Australian Catholic University (ACU)
+    location: North Sydney, Australia
+    url: https://www.acu.edu.au/about-acu/faculties-directorates-and-staff/faculty-of-law-and-business/peter-faber-business-school
+    time: 2018
+    details:
+  - degree: Elements of ICA40405 Certificate IV in Information Technology
+    university: Barrier Reef Institute of TAFE
+    location: Townsville, Australia
+    url: https://tafeqld.edu.au/courses/study-locations/north-queensland/index.html?
+    time: 2008
+    details:
+  - degree: Ph.D. Interdisciplinary Engineering | Computational Fluid Dynamics, Experiments with Fluids, Visualisation
+    university: Kyushu University, Interdisciplinary School of Engineering Sciences
+    location: Fukuoka, Japan
+    url: http://www.tj.kyushu-u.ac.jp/en/
+    time: 2002 - 2005
+    details:
+  - degree: Master of Science | Physics
+    university: AGH University of Science and Technology, Faculty of Physics and Applied Computer Science
+    location: Krakow, Poland
+    url: http://www.fis.agh.edu.pl/indexe.html
+    time: 2001 - 2002
+    details:
+  - degree: Bachelor of Science | Physics
+    university: AGH University of Science and Technology, Faculty of Physics and Applied Computer Science
+    location: Krakow, Poland
+    url: http://www.fis.agh.edu.pl/indexe.html
+    time: 1997 - 2001
+    details:
+
+experience:
+  - role: Director and Head of Visualisation
+    time: 2017 - Present
+    company: Expanded Perception and Interaction Centre (EPICentre)
+    location: Sydney, Australia
+    url: https://artdesign.unsw.edu.au
+    details: |
+      UNSW | School of Art and Design
+  - role: Team Leader
+    time: 2016.05 - Present
+    company: CSIRO's Data61
+    location: Sydney / Brisbane, Australia
+    url: https://data61.csiro.au
+    details: |
+      Team: *Visual Analytics* (ex Big Data Visualisation and Analytics)
+  - role: Adjunct Associate Professor
+    time: 2015 - Present
+    company: University of South Australia (UniSA)
+    location: Adelaide, Australia
+    url: https://www.unisa.edu.au/
+    details: |
+      IT, Engineering and the Environment
+  - role: Adjunct Associate Professor
+    time: 2017 - Present
+    company: Queensland University of Technology (QUT)
+    location: Brisbane, Australia
+    url: https://www.qut.edu.au/
+    details: |
+      Science and Engineering Faculty, Mathematical Sciences, Applied Mathematics, Numerical and Computational Mathematics
+  - role: Adjunct Associate Professor
+    time: 2013 - 2018
+    company: The University of Sydney
+    location: Sydney, Australia
+    url: http://sydney.edu.au/architecture/research/designlab/index.shtml
+    details: |
+      Faculty of Architecture, Design and Planning | The Design Lab
+  - role: Associate Professor
+    time: 2015.03 - 2017.04
+    company: Queensland University of Technology (QUT)
+    location: Brisbane, Australia
+    url: https://www.qut.edu.au/
+    details: |
+      Science and Engineering Faculty, Institute for Future Environments, [ARC Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS)](https://acems.org.au/home)
+  - role: Visiting Professor
+    time: 2015.11 - 2015.12
+    company: University of Wroclaw (UWr)
+    location: Wroclaw, Poland
+    url: http://www.ii.uni.wroc.pl/en
+    details: |
+      Institute of Computer Science
+  - role: Visiting Scientist
+    time: 2015 - 2016.04
+    company: CSIRO
+    location: Brisbane, Australia
+    url: https://www.csiro.au
+    details: |
+      While working at the QUT full-time (unpaid leave from CSIRO)
+  - role: Research Team Leader
+    time: 2014 - 2015
+    company: CSIRO
+    location: Brisbane, Australia
+    url: https://www.csiro.au
+    details: |
+      Team: Statistical Inference | Analytics Research Program
+
+  - role: Guest Researcher
+    time: 2014
+    company: National Institute of Standards and Technology (NIST)
+    location: Gaithersburg MD, USA
+    url: https://www.nist.gov/
+    details: |
+      Information Technology Laboratory | Applied and Computational Mathematics Division<br />
+      [High Performance Computing and Scientific Visualization Group](http://www.nist.gov/itl/math/hpcvg/)
+  - role: Computational Research Scientist
+    time: 2011 - 2014
+    company: CSIRO
+    location: Sydney, Australia
+    url: https://www.csiro.au
+    details:
+  - role: 3D Visualisation Software Engineer
+    time: 2009 - 2011
+    company: CSIRO
+    location: Brisbane, Australia
+    url: https://www.csiro.au
+    details:
+  - role: Senior Research Fellow
+    time: 2005 - 2009
+    company: James Cook University (JCU)
+    location: Townsville, Australia
+    url: http://www.jcu.edu.au/
+    details: |
+      School of Engineering and Physical Sciences
+
+
+
