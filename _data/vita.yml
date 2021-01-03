@@ -129,5 +129,109 @@ experience:
     details: |
       School of Engineering and Physical Sciences
 
+awards:
+  - name: WAITRO People’s Choice Award - Low cost desalination device to supply potable water for remote areas
+    time: 2020
+    body: WAITRO
+    url: https://www.inside.unsw.edu.au/innovation-and-engagement/low-cost-desalination-device-supply-potable-water-remote-areas
+    description: |
+      Team: Prof David Waite, Prof John Fletcher, A/Prof Tomasz Bednarz, Dr Yuan Wang, Dr Lloyd Lian
+  - name: Excellence in Research, End-User Impact
+    time: 2019
+    body: UNSW Faculty of Art and Design, Dean's Award (signed by Professor Ross Harley)
+    url: https://artdesign.unsw.edu.au
+    description: 
+  - name: Global Outlook Award
+    time: 2017 and 2018
+    body: CSIRO's Data61, Software and Computational Systems Program Award
+    url: https://data61.csiro.au
+    description: 
+  - name: AIM Above and Beyond Award
+    time: 2017
+    body: CSIRO
+    url: https://www.csiro.au
+    description: |
+      1st Active Integrated Matter Conference, fot the role on the AIM17 organising committee
+  - name: Merit Recipient at Queensland iAward 2015
+    time: 2015
+    body: iAwards
+    url: http://www.iawards.com.au/index.php/winners/2015-winners/2015-winners-qld
+    description: |
+      For the NeCTAR co-funded project [Cloud-based Image Analysis and Processing Toolbox](http://cloudimaging.net.au)
+  - name: Julius Career 2012/13 Award
+    time: 2012 - 2015
+    body: CSIRO Office of the Chief Executive Science, Australia
+    url: http://www.csiro.au
+    description: |
+      Total of $150k for 3 years towards achieving vision of connecting various areas of 
+      sciences to bring new scientific benefits to CSIRO.<br /> *Julius Career Awards are 
+      designed to enhance the careers of exceptional early to mid career scientists. 
+      The aim is to develop and retain outstanding early to mid-career scientists with 
+      a view to enhancing science quality and reinforce a culture of scientific excellence*.
+  - name: Career Research Achievement Award 2012
+    time: 2012
+    body: CSIRO Mathematics, Informatics and Statistics
+    url: http://www.csiro.au
+    description: |
+      *Career Research Achievement Award for valuable research contribution to the 
+      Computational and Simulations Sciences TCP since joined CSIRO Mathematics 
+      Informatics and Statistics in early 2011.*
+  - name: Outstanding Paper Award
+    time: 2004
+    body: 10th Asian Pacific Conferderation on Chemical Engineering, Kitakyushu, Japan
+    url:
+    description: |
+      *Outstanding Paper Award for the presentation of the paper entitled "Effect of the Coil 
+      Size on a Convection of Air in a Cubic Enclosure". This paper was selected for the outstanding paper award during the 10th Asian Pacific Confederation on Chemical Engineering in recognition of the originality of the research and the enthusiasm communicated in the presentation.* APCChE 2004 Chairman - Masanobu Hasatani, signed the award.
+  - name: Japanese Monbukagakusho Scholarship
+    time: 2002 - 2005
+    body: The Monbukagakusho (Ministry of Education, Culture, Sports, Science and Technology - MEXT) scholarship to study at Japanese university (Khushu University)
+    url:
+    description:
 
-
+professional-activities:
+  - name: ACM SIGGRAPH External Relations Committee Chair
+    body: ACM SIGGRAPH External Relations 
+    time: 2020 - 2023
+    url: https://www.siggraph.org/external-relations-committee/
+    description:
+  - name: SIGGRAPH Asia Conference Advisory Group SACAG (voting member)
+    body: ACM SIGGRAPH
+    time: 2017 - Present
+    url: http://www.siggraph.org
+    description:
+  - name: Individual Member
+    body: Khronos Group
+    time: 2013 - Present
+    url: http://khronos.org
+    description:
+  - name: Chair of Queensland IEEE Computer Society
+    body: IEEE
+    time: 2016 and 2017
+    url: http://ieee-qld.org/chapters/computer-society-chapter/
+    description:
+  - name: Brisbane ACM SIGGRAPH Chapter Chair
+    body: ACM SIGGRAPH
+    time: 2015 - 2017
+    url: http://www.siggraph.org
+    description:
+  - name: Khronos Group Global Chapters Chair
+    body: Khronos Group
+    time: 2016 and 2017
+    url: http://khronos.org
+    description:
+  - name: Khronos Group Brisbane/Sydney Chapters Chair
+    body: Khronos Group
+    time: 2014 - Present
+    url: 
+    description:
+  - name: 
+    body: 
+    time: Member
+    url: 
+    description: |
+      Association of Computing Machinery (*ACM*), Senior Member\
+      ACM SIGGRAPH, Pioneer Member\
+      Institute of Electrical and Electronics Engineers (IEEE)\
+      Computer Society, IEEE\
+      Khronos Group, Individual Member

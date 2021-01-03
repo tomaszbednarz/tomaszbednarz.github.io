@@ -27,7 +27,7 @@
 {% assign experience = site.data.vita.experience %}
 {% if experience %}
 <div id="vita">
-   <a name="experience"><h2>PROFESSIONAL EXPERIENCE</h2></a>
+   <a name="experience"><h2>EMPLOYEMENT</h2></a>
    {% for job in experience %}
    <p>
    <div class="margin">{{ job.time }}</div>
@@ -37,11 +37,69 @@
          <a href="{{ job.url }}">
       {% endif %}
       {{ job.company }} | {{ job.location }}<br />
-      {% if job.role %} 
+      {% if job.url %} 
          </a>
       {% endif %}
       {% if job.details %} 
          {{ job.details | markdownify }}
+      {% endif %}
+   </div>
+   </p>
+   {% endfor %}
+</div>
+{% endif %}
+
+<hr />
+
+{% assign awards = site.data.vita.awards %}
+{% if awards %}
+<div id="vita">
+   <a name="awards"><h2>AWARDS</h2></a>
+   {% for award in awards %}
+   <p>
+   <div class="margin">{{ award.time }}</div>
+   <div class="body">
+      <strong>{{ award.name }}</strong><br />
+      {% if award.url %} 
+         <a href="{{ award.url }}">
+      {% endif %}
+      {{ award.body }} <br />
+      {% if award.url %} 
+         </a>
+      {% endif %}
+      {% if award.description %} 
+         {{ award.description | markdownify }}
+      {% endif %}
+   </div>
+   </p>
+   {% endfor %}
+</div>
+{% endif %}
+
+<hr />
+
+{% assign activities = site.data.vita.professional-activities %}
+{% if activities %}
+<div id="vita">
+   <a name="activities"><h2>PROFESSIONAL ACTIVITIES</h2></a>
+   {% for activity in activities %}
+   <p>
+   <div class="margin">{{ activity.time }}</div>
+   <div class="body">
+      {% if activity.name %}
+      <strong>{{ activity.name }}</strong><br />
+      {% endif %}
+      {% if activity.url %} 
+         <a href="{{ activity.url }}">
+      {% endif %}
+      {% if activity.body %}
+      {{ activity.body }} <br />
+      {% endif %}
+      {% if activity.url %} 
+         </a>
+      {% endif %}
+      {% if activity.description %} 
+         {{ activity.description | markdownify }}
       {% endif %}
    </div>
    </p>
@@ -56,13 +114,17 @@
 
 {% comment %}
 
+Teaching
+Refereed Publications
+Exhibitions
+Invited Talks
+Media Coverage
+* Professional Activities
+* Awards
+
+
 <h1>
-    <a class="nav" href="/">about</a> &nbsp;&nbsp;&nbsp;
-    cv &nbsp;&nbsp;&nbsp;
-    <a class="nav" href="/bio">bio</a> &nbsp;&nbsp;&nbsp;
-    <a class="nav" href="/siggraph">siggraph</a> &nbsp;&nbsp;&nbsp;
-    </h1>
-  
+ 
     <div id="vita">
   
       <p>
@@ -74,73 +136,6 @@
         <a href="#invited">Invited talks</a> &nbsp;
       </p>
   
-      <!-- employment -->
-  
-      <p><br></p>
-      <a name="employment"><h2>professional experience</h2></a>
-
-
-
-
-
-
-
-      <p></p>
-      <div class="margin"><em>2015 - 2016.04</em></div>
-      <div class="body">
-        <strong>Visiting Scientist</strong><br />
-        <a href="https://www.csiro.au/">CSIRO</a></strong>&nbsp;
-        <em>Brisbane, Australia</em><br /> 
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin"><em>2014 - 2015</em></div>
-      <div class="body">
-        <strong>Research Team Leader</strong><br />
-        <a href="https://www.csiro.au/">CSIRO</a></strong>&nbsp;
-        <em>Brisbane, Australia</em><br /> 
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin"><em>2014.1 - 2014.7</em></div>
-      <div class="body">
-        <strong>Guest Researcher</strong><br />
-        <a href="https://www.nist.gov">National Institue of Standards and Technology (NIST)</a></strong>&nbsp;
-        <em>Gaithersburg MD, USA</em><br /> 
-        Information Technology Laboratory | Applied and Computational Mathematics Division<br />
-        <a href="http://www.nist.gov/itl/math/hpcvg/">High Performance Computing and Scientific Visualization Group</a>
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin"><em>2011 - 2014</em></div>
-      <div class="body">
-        <strong>Computational Research Scientist</strong><br />
-        <a href="https://www.csiro.au/">CSIRO</a></strong>&nbsp;
-        <em>Sydney, Australia</em><br /> 
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin"><em>2009 - 2011</em></div>
-      <div class="body">
-        <strong>3D Visualisation Software Engineer</strong><br />
-        <a href="https://www.csiro.au/">CSIRO</a></strong>&nbsp;
-        <em>Brisbane, Australia</em><br /> 
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin"><em>2005 - 2009</em></div>
-      <div class="body">
-        <strong>Senior Research Fellow</strong><br />
-        <a href="http://www.jcu.edu.au">James Cook University (JCU)</a></strong>&nbsp;
-        <em>Townsville, Australia</em><br />
-        School of Engineering and Physical Sciences 
-      </div>
-      <p></p>
   
       <!-- boards -->
   
@@ -169,63 +164,7 @@
   
       <p><br></p>
       <a name="awards"><h6>awards and grants (selected)</h6></a>
-  
-      <p></p>
-      <div class="margin">2019</div>
-      <div class="body">
-         <strong>Excellence in Research, End-User Impact</strong><br /> 
-         UNSW Faculty of Art and Design, Dean's Award (signed by Professor Ross Harley).
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2017, and 2018</div>
-      <div class="body">
-         <strong>Software and Computational Systems Program Award</strong><br /> 
-         Awarded by CSIRO Data61 for Global Outlook.
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2017</div>
-      <div class="body">
-         <strong>AIM Above and Beyond Award</strong><br /> 
-         1st Active Integrated Matter Conference, for the role on the AIM17 organising committee.
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2015</div>
-      <div class="body">
-          <strong><a href="http://www.iawards.com.au/index.php/winners/2015-winners/2015-winners-qld">Merit Recipient at Queensland iAward 2015</a></strong><br />
-          For the NeCTAR co-funded project <a href="http://cloudimaging.net.au">Cloud-based Image Analysis and Processing Toolbox</a>.
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2012 - 2015</div>
-      <div class="body">
-          <strong>Julius Career 2012/13 Award</strong><br />
-          CSIRO Office of the Chief Executive Science, Australia<br />
-          Total of $150k for 3 years towards achieving vision of connecting various areas of 
-          sciences to bring new scientific benefits to CSIRO. <em>Julius Career Awards are 
-          designed to enhance the careers of exceptional early to mid career scientists. 
-          The aim is to develop and retain outstanding early to mid-career scientists with 
-          a view to enhancing science quality and reinforce a culture of scientific excellence</em>.
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2012</div>
-      <div class="body">
-          <strong>Career Research Achievement Award 2012</strong><br />
-          CSIRO Mathematics, Informatics and Statistics, Australia<br />
-          <em>Career Research Achievement Award for valuable research contribution to the 
-          Computational and Simulations Sciences TCP since joined CSIRO Mathematics 
-          Informatics and Statistics in early 2011.</em>
-       </div>
-      <p></p>
-  
+     
       <p></p>
       <div class="margin">2012</div>
       <div class="body">
@@ -236,77 +175,22 @@
        </div>
       <p></p>
   
-      <p></p>
-      <div class="margin">2004</div>
-      <div class="body">
-          <strong>Outstanding Paper Award</strong><br />
-          10th Asian Pacific Conferderation on Chemical Engineering, Kitakyushu, Japan<br />
-          <em>Outstanding Paper Award for the presentation of the paper entitled "Effect of the Coil 
-          Size on a Convection of Air in a Cubic Enclosure". This paper was selected for the outstanding paper award during the 10th Asian Pacific Confederation on Chemical Engineering in recognition of the originality of the research and the enthusiasm communicated in the presentation. APCChE 2004 Chairman - Masanobu Hasatani, signed the award.</em>
-       </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2002 - 2005</div>
-      <div class="body">
-          <strong>Japanese Monbukagakusho Scholarship</strong><br />
-          The Monbukagakusho (Ministry of Education, Culture, Sports, Science and Technology - MEXT) scholarship to study at Japanese university (in my case Khushu University). 
-       </div>
-      <p></p>
-  
+
+
+
+
+
+
+
       <!-- professional memberships -->
   
       <p><br></p>
       <a name="memberships"><h6>professional memberships and activities</h6></a>
   
-      <p></p>
-      <div class="margin">2017 - present</div>
-      <div class="body">
-         <strong>Member</strong><br />
-         <a href="https://sa2018.siggraph.org/en/about-us/siggraph-asia-2018-committee">SIGGRAPH Asia Conference Advisory Group (SACAG)</a>
-      </div>
-      <p></p>
   
-      <p></p>
-      <div class="margin">2016 - 2017</div>
-      <div class="body">
-         <strong>Chair</strong><br />
-         <a href="http://ieee-qld.org/chapters/computer-society-chapter/">Queensland IEEE Computer Society</a>
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2013 - present</div>
-      <div class="body">
-         <strong>Individual Member</strong><br />
-         <a href="http://khronos.org">Khronos Group</a>
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2016 - present</div>
-      <div class="body">
-         <strong>Khronos Chapters Chair</strong><br />
-         <a href="http://khronos.org">Khronos Group</a>
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2014 - present</div>
-      <div class="body">
-         <strong>Leader</strong><br />
-         <a href="http://www.meetup.com/Khronos-Brisbane-Chapter/">Brisbane Khronos Chapter</a>
-      </div>
-      <p></p>
-  
-      <p></p>
-      <div class="margin">2015 - present</div>
-      <div class="body">
-         <strong>Chair</strong><br />
-         <a href="https://campus.acm.org/public/qj/chapqj/chapqj_control.cfm?chap=131014">Brisbane ACM SIGGRAPH Chapter</a>
-      </div>
-      <p></p>
-  
+     
+
+
       <!-- Invited -->
   
       <p><br></p>
