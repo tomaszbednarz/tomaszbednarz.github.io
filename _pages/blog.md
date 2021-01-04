@@ -26,6 +26,7 @@ title: "Blog"
             {% endfor %}
             </h6>
           {% endif %}
+          <small>Published on {{ post.date | date: "%B %-d, %Y" }}</small>
     </div>
     </div>
   </div>
