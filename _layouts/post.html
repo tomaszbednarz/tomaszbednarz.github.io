@@ -2,15 +2,42 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-
-<small>{{ page.author.name | default: site.author.name }} on {{ page.date | date: "%B %-d, %Y" }}</small>
-<br /><br />
-{{content}}
-
+<br />
+<br />
+<div id="blog">
+  <div class="row"> 
+    <div class="col-lg-8">
+      <h1>{{ page.title }}</h1>
+      <small><strong>{{ page.author.name | default: site.author.name }}</strong> on {{ page.date | date: "%B %-d, %Y" }}</small><br />
+      <br />
+      {{ content }}
+    </div>
+    <div class="col-md-4">
+      <!-- side l8r -->
+    </div>
+  </div>
+</div>
+<hr />
 {% if page.categories %}
-  Categories: <small><em>{{ page.categories | join: "</em> - <em>" }}</em></small><br />
+<h5>
+  <span class="badge bg-dark">CATEGORIES</span>
+    {% assign categories = page.categories %}
+    {% for cat in categories %}
+    <span class="badge bg-secondary">
+      {{ cat | upcase }}
+    </span>
+    {% endfor %}
+</h5> 
 {% endif %}
 {% if page.tags %}
-  Tags: <small><em>{{ page.tags | join: "</em> | <em>" }}</em></small><br />
+<h5>
+  <span class="badge bg-dark">TAGS</span>
+  {% assign tags = page.tags %}
+  {% for tag in tags %}
+  <span class="badge bg-secondary">
+    {{ tag | upcase }}
+  </span>
+  {% endfor %}
+</h5>
 {% endif %}
+<br />

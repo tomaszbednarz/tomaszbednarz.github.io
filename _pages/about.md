@@ -13,16 +13,3 @@ He holds Adjunct positions at:
 Queensland University of Technology (Science and Engineering Faculty, School of Mathematical Sciences),
 University of South Australia (School of IT and Math Sciences).
 He was ACM SIGGRAPH Asia 2019 Conference Chair (SIGGRAPH conferences are the world’s largest, most influential annual meetings and exhibitions in computer graphics and interactive techniques). The conference will be held for the very first time in Australia (Brisbane).
-
-
-
-
-{% for post in site.posts %}
-<article>
-        <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-        </time>
-        {{ post.content }}
-</article>
-{% endfor %}
