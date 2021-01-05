@@ -1,3 +1,27 @@
+bio: |
+  Tomasz is a Director and Head of Visualisation at the Expanded Perception & Interaction Centre (EPICentre), 
+  A/Professor at the UNSW Art & Design. He is also Research Team Leader at CSIRO's Data61 
+  (leading Visual Analytics Team, in Software & Computational Systems Research Program). 
+  He holds Associate Investigator position (and was industry Partner Investigator) at the ARC Centre of Excellence for 
+  Mathematical and Statistical Frontiers (ACEMS). Holds Adjunct Associate Professor 
+  position University of South Australia (School of IT and Math Sciences). Board member of the ACU IT Industry Advisory Board (Chair), 
+  and Australian Research Centre for Interactive and Virtual Environments (IVE) University 
+  of South Australia.\ 
+
+  His current roles reflect his conviction to a holistic approach to the wicked problems 
+  facing the collation, analytics and display of big data. His approach is expansive and 
+  encompasses the use of novel technologies (AR, VR, CAVE, Dome, AVIE), often in combination. 
+  Over the last couple of years, he has been involved in wide range of projects in area of 
+  immersive visualisation, human-computer interaction, computational imaging, image analysis 
+  and processing, visualisation, simulations, computer graphics, computer games, computational 
+  fluid dynamics, machine learning, artificial intelligence, and multi-sensors assimilation.\ 
+
+  He was Conference Chair of ACM SIGGRAPH Asia 2019 (SIGGRAPH conferences are the world’s 
+  largest, most influential annual meetings and exhibitions in computer graphics and interactive 
+  techniques). Over last ten years, selected volunteering roles include: Computer Animation 
+  Festival Jury (SA2004), Courses Chair (SA2017), Member of ACM SIGGRAPH International Resources 
+  Committee (2013-2017), Virtual Augmented and Mixed Reality Jury (S2018), Reviewer, Panellist, 
+  Unified Jury Committee (2017), BoF Sessions Organiser, Submitter and Presenter.
 education:
   - degree: MBA (Technology)
     university: AGSM, University of New South Wales (UNSW)
@@ -22,7 +46,7 @@ education:
     location: Fukuoka, Japan
     url: http://www.tj.kyushu-u.ac.jp/en/
     time: 2002 - 2005
-    details:
+    details: 
   - degree: Master of Science | Physics
     university: AGH University of Science and Technology, Faculty of Physics and Applied Computer Science
     location: Krakow, Poland
@@ -43,14 +67,19 @@ experience:
     location: Sydney, Australia
     url: https://artdesign.unsw.edu.au
     details: |
-      UNSW | School of Art and Design
+      UNSW, School of Art and Design. Research Areas: *Digital Twins, Simulation, Modelling, Immersive Visualisation, High-Performance 
+      Visualisation, Immersive Analytics, AI, Graphics Grammar, 
+      Computer Graphics, AR, VR, MR, Computer Vision, 
+      Computational Imaging, Art and Design*.
   - role: Team Leader
     time: 2016.05 - Present
     company: CSIRO's Data61
     location: Sydney / Brisbane, Australia
     url: https://data61.csiro.au
     details: |
-      Team: *Visual Analytics* (ex Big Data Visualisation and Analytics)
+      Team: *Visual Analytics* (ex Big Data Visualisation and Analytics). 
+      Research Areas: *Simulation, Modelling, Virtual Hubs, Computational Platforms, Big Data Analytics, Visual Analytics, 
+      Applied Computational Science, Accelerated Computing, Computational Imaging and Visualisation, AI*.
   - role: Adjunct Associate Professor
     time: 2015 - Present
     company: University of South Australia (UniSA)
@@ -128,6 +157,13 @@ experience:
     url: http://www.jcu.edu.au/
     details: |
       School of Engineering and Physical Sciences
+  - role: CEO / CTO
+    time: 2006 - 2012
+    company: Kolor Design Pty Ltd
+    location: Townsville, Australia
+    url:
+    details: |
+      Software and web development company, iPhone Apps development.
 
 awards:
   - name: WAITRO People’s Choice Award - Low cost desalination device to supply potable water for remote areas

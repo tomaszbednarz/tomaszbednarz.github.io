@@ -1,5 +1,26 @@
 <br />
 <br />
+
+<div id="vita">
+   <h1><strong>CV</strong> <small>Tomasz Bednarz</small></h1>
+</div>
+
+<hr />
+
+{% assign bio = site.data.vita.bio %}
+{% if bio %}
+<div id="vita">
+   <p>
+   <div class="margin"><strong>BIOGRAPHY</strong></div>
+   <div class="body">
+      {{ bio | markdownify }}
+   </div><!--//item-->
+   </p>
+</div>
+{% endif %}
+
+<hr />
+
 {% assign education = site.data.vita.education %}
 {% if education %}
 <div id="vita">
@@ -12,9 +33,12 @@
       {% if graduation.url %} 
          <a href="{{ graduation.url }}">
       {% endif %}
-      {{ graduation.university }} | {{ graduation.location }}
+      {{ graduation.university }} | {{ graduation.location }}<br />
       {% if graduation.url %} 
          </a>
+      {% endif %}
+      {% if graduation.details %}
+         {{ graduation.details }}
       {% endif %}
    </div><!--//item-->
    </p>
