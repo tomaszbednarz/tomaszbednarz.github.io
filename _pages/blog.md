@@ -9,11 +9,11 @@ title: "Blog"
   {% for post in site.posts %}
   <div class="col-sm-6 col-lg-4 mb-4">
     <div class="card text-center">
-    <div class="card-body">
       {% if post.image %}
       {% capture imagePath %}/assets/posts/{{ post.date | date: "%Y-%m-%d" }}-{{ post.title | slugify }}/{{ include.name }}{{ post.image }}{% endcapture %}
       <a href="{{ post.url }}">{% include image.html name=imagePath full_path="yes" %}</a>
       {% endif %}
+      <div class="card-body">
           <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
           {% if post.tags %}
             <h6>
@@ -27,7 +27,7 @@ title: "Blog"
             </h6>
           {% endif %}
           <small>Published on {{ post.date | date: "%B %-d, %Y" }}</small>
-    </div>
+      </div>
     </div>
   </div>
   {% endfor %}

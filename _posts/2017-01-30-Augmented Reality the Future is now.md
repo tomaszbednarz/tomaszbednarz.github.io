@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Augmented Reality - the Future is now
-image:
+image: cover-ar.jpg
 categories: article
 tags: ar
 ---
+
+{% include image.html name="cover-ar.jpg" caption="AR at home - captured using iPhone through HoloLens (aka 2016)" %}
 
 Augmented Reality (AR) provides a digital enhancement for the physical world combing virtual objects with the real environment in a way that if the view changes (what user sees), the augmented objects follow that change accordingly. AR systems use lots of complex computer vision algorithms, explicitly scanning surrounding environment and/or constantly seeking for digital markers (bar codes, images, or other patterns) that help to align virtual objects to proper position and orientation in the physical world. All of those combined with AI engines, (Big) Data Analytics platforms, Internet of Things (IoT), distributed storage and virtual laboratories open up indefinite number of amazing opportunities for the AR to make our lives better, be more efficient and improve our decision making strategies.
 
