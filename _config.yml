@@ -10,6 +10,7 @@ include:
  - _pages
 
 markdown: kramdown
+highlighter: rouge
 # theme: minima
 
 plugins:
