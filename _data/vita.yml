@@ -29,6 +29,12 @@ education:
     url: https://www.business.unsw.edu.au/degrees-courses/postgraduate/mba/agsm-mba-technology
     time: 2018 - 2020
     details:
+  - degree: Ph.D. Interdisciplinary Engineering | Computational Fluid Dynamics, Experiments with Fluids, Visualisation
+    university: Kyushu University, Interdisciplinary School of Engineering Sciences
+    location: Fukuoka, Japan
+    url: http://www.tj.kyushu-u.ac.jp/en/
+    time: 2002 - 2005
+    details: 
   - degree: Graduate Certificate of Business Administration (Executive)
     university: Australian Catholic University (ACU)
     location: North Sydney, Australia
@@ -41,12 +47,6 @@ education:
     url: https://tafeqld.edu.au/courses/study-locations/north-queensland/index.html?
     time: 2008
     details:
-  - degree: Ph.D. Interdisciplinary Engineering | Computational Fluid Dynamics, Experiments with Fluids, Visualisation
-    university: Kyushu University, Interdisciplinary School of Engineering Sciences
-    location: Fukuoka, Japan
-    url: http://www.tj.kyushu-u.ac.jp/en/
-    time: 2002 - 2005
-    details: 
   - degree: Master of Science | Physics
     university: AGH University of Science and Technology, Faculty of Physics and Applied Computer Science
     location: Krakow, Poland
@@ -80,6 +80,12 @@ experience:
       Team: *Visual Analytics* (ex Big Data Visualisation and Analytics). 
       Research Areas: *Simulation, Modelling, Virtual Hubs, Computational Platforms, Big Data Analytics, Visual Analytics, 
       Applied Computational Science, Accelerated Computing, Computational Imaging and Visualisation, AI*.
+  - role: Deputy Director 
+    time: 2020 - Present
+    company: Australian Researchers in Interactive Virtual Environments
+    location: Australia and New Zealand
+    url: https://arive.me
+    details: 
   - role: Adjunct Associate Professor
     time: 2015 - Present
     company: University of South Australia (UniSA)
