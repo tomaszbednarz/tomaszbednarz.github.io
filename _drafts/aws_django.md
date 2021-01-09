@@ -42,17 +42,27 @@ pip install django -y
 * Add env
 
 ```
- echo "source ${HOME}/my_app/env/bin/activate" >> ${HOME}/.bashrc
- ```
+echo "source ${HOME}/my_app/env/bin/activate" >> ${HOME}/.bashrc
+```
 
- * Create django project
+* Create django project
 
- ```
- mkdir iSME
- cd iSME
- django-admin startproject config .
- python manage.py migrate
- python manage.py runserver 0.0.0.0:8000
- ```
+```
+mkdir iSME
+cd iSME
+django-admin startproject config .
+python manage.py migrate
+python manage.py runserver 0.0.0.0:8000
+```
 
- * Remember to add port 8000 in AWS console to open traffic in Security tab
+* Remember to add port 8000 in AWS console to open traffic in Security tab
+
+* screen
+
+````
+screen -S django_tomek
+python manage.py runserver 0.0.0.0:8000
+```
+
+Click control-a and then d.
+
