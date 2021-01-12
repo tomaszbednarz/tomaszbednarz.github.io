@@ -18,7 +18,7 @@ sections:
     title: Welcome!
     content: |-
         My name is Tomasz Bednarz, a Director and Head of Visualisation at UNSW's EPICentre, and a Team Leader at the CSIRO's Data61.
-        My backround is in physics, applied computer science, visualisation, computer graphics, simulation, modelling, CFD, games development, AI, computational platforms.
+        My backround is in applied computer science, physics, visualisation, computer graphics, HCI, simulation, modelling, CFD, games development, AI, computational platforms.
         I am passionate about technology, digital innovation, conscious change leadership, growth mindset, business management and development, future science and technology.
         I am also a demoscener, long term #SIGGRAPH volunteer, author of 100+ research publications, events organiser and artist-scientist.
 layout: home
