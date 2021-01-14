@@ -244,9 +244,14 @@ professional-activities:
     time: 2020 - 2023
     url: https://www.siggraph.org/external-relations-committee/
     description:
+  - name: SIGGRAPH Asia 2019 Conference Chair
+    body: ACM SIGGRAPH
+    time: 2019
+    url: http://sa19.siggraph.org
+    description:
   - name: SIGGRAPH Asia Conference Advisory Group SACAG (voting member)
     body: ACM SIGGRAPH
-    time: 2017 - Present
+    time: 2017 - 2020
     url: http://www.siggraph.org
     description:
   - name: Individual Member
