@@ -289,3 +289,45 @@ professional-activities:
       Institute of Electrical and Electronics Engineers (IEEE)\
       Computer Society, IEEE\
       Khronos Group, Individual Member
+
+media-coverage:
+  - name: Explore CSIRO’s Australian Square Kilometre Array Pathfinder with their digital twin
+    time: 2020
+    url: https://algorithm.data61.csiro.au/explore-csiros-australian-square-kilometre-array-pathfinder-with-their-digital-twin/
+    description: |
+      CSIRO's Data61 Algorithm 
+  - name: Low cost desalination device to supply potable water for remote areas
+    time: 2020
+    url: https://www.inside.unsw.edu.au/innovation-and-engagement/low-cost-desalination-device-supply-potable-water-remote-areas
+    description: |
+      Inside UNSW
+  - name: From the “Dream Zone”, SIGGRAPH Asia 2019 inspires great discourse about building humanity into computer graphics
+    time: 2019
+    url: http://www.mynewsdesk.com/sg/pinpoint-pr/pressreleases/from-the-dream-zone-siggraph-asia-2019-inspires-great-discourse-about-building-humanity-into-computer-graphics-2947507
+    description: 
+  - name: Anecdotes from the 12th edition of SIGGRAPH Asia 2019
+    time: 2019
+    url: https://www.animationxpress.com/latest-news/anecdotes-from-the-12th-edition-of-siggraph-asia-2019/
+    description: 
+  - name: Global computer-generated animation and visual effects brands to gather at SIGGRAPH Asia 2019
+    time: 2019
+    url: https://www.filmink.com.au/public-notice/global-computer-generated-animation-visual-effects-brands-gather-siggraph-asia-2019/
+    description: 
+  - name: ACM SIGGRAPH Member Profile - Tomasz Bednarz
+    time: 2016
+    url: https://www.siggraph.org/member-profile/tomasz-bednarz/
+    description:
+  - name: FMX 2016 - Visualisation Matters - from small to massive scale
+    time: 2016
+    url: https://youtu.be/Qb9vVrfsF7I
+    description: |
+      FMX 2016 Stuttgart, Germany
+  - name: In the Trenches at GTC - Inside Kepler
+    time: 2012
+    url: https://developer.nvidia.com/blog/trenches-gtc-inside-kepler/
+    description: |
+      GTC 2012 Guest Blog
+
+
+
+

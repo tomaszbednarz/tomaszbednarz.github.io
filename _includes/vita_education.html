@@ -133,6 +133,34 @@
 
 <hr />
 
+{% assign media = site.data.vita.media-coverage %}
+{% if media %}
+<div id="vita">
+   <a name="media"><h2>MEDIA COVERAGE</h2></a>
+   {% for activity in media %}
+   <p>
+   <div class="margin">{{ activity.time }}</div>
+   <div class="body">
+      {% if activity.name %}
+         {% if activity.url %} 
+            <a href="{{ activity.url }}">
+         {% endif %}
+         <strong>{{ activity.name }}</strong><br />
+         {% if activity.url %} 
+            </a>
+         {% endif %}
+      {% endif %}
+      {% if activity.description %} 
+         {{ activity.description | markdownify }}
+      {% endif %}
+   </div>
+   </p>
+   {% endfor %}
+</div>
+{% endif %}
+
+<hr />
+
 
 
 
