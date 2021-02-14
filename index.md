@@ -18,7 +18,7 @@ sections:
     title: Welcome!
     content: |-
         My name is Tomasz Bednarz - welcome to my Personal Website.
-        My backround is in applied computer science, physics, visualisation, computer graphics, HCI, simulation, modelling, CFD, games development, AI, computational platforms.
+        I have backround is in applied computer science, physics, visualisation, computer graphics, HCI, simulation, modelling, CFD, games development, AI, computational platforms.
         I am passionate about technology, digital innovation, conscious change leadership, growth mindset, business management and development, future science and technology.
         I am also a demoscener, long term #SIGGRAPH volunteer, author of 100+ research publications, events organiser and artist-scientist.
 layout: home
@@ -26,13 +26,13 @@ layout: home
 
 # Highlights 
 
-- Officially passed exam: [Unity Certified Associate: Game Developer](https://www.youracclaim.com/badges/a35a462e-805e-47cb-9161-ca703df83e79/public_url).
-
-- [Museum of Applied Arts and Sciences (MAAS) Visiting Research Fellow in 2021](https://maas.museum/) Virtual Reality Exposure Theraphy (VRET) and Virtual Reality Enabled Storytelling (VRES) for Australian Science and Technology.
+- [Museum of Applied Arts and Sciences (MAAS) Visiting Research Fellow in 2021](https://maas.museum/).
 
 - [WAITRO People's Choice Award: Low cost desalination device to supply potable water for remote areas](https://www.inside.unsw.edu.au/innovation-and-engagement/low-cost-desalination-device-supply-potable-water-remote-areas) - include Digital Twin. Team: Prof David Waite, Prof John Fletcher, A/Prof Tomasz Bednarz, Dr Yuan Wang, Dr Lloyd Lian.
 
 - **KEYNOTE**: [Responsible Technology through Visual Analytics and Computational Angles](http://www.graphicslink.co.uk/IV2020/IV2020_progV12A_BookAbstractV12A.pdf), 24th International Conference Information Visualization, 7-11 September 2020, Melbourne AU / Vienna EU.
+
+- Officially passed exam: [Unity Certified Associate: Game Developer](https://www.youracclaim.com/badges/a35a462e-805e-47cb-9161-ca703df83e79/public_url).
 
 - [SIGGRAPH Asia 2020 Virtual](https://sa2020.siggraph.org/)
   - [eXplainable Artificial Intelligence (XAI): An introduction to the XAI landscape with practical examples](https://doi.org/10.1145/3415263.3419166). Course.
