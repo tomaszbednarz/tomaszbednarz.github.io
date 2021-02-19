@@ -6,6 +6,8 @@ categories: article
 tags: research
 ---
 
+{% include image.html name="road.jpg" %}
+
 Many of us write funding proposals on daily basis - whether they are for research, or industry projects, they all require innovative ideas, and need to convince assessors and sponsors about impact or return of investment to support the proposal.
 
 > Thoughts become things. If you see it in your mind, you will hold it in your hand. 
