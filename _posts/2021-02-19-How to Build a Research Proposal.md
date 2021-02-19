@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to Build a Research Proposal
-image:
+image: road.jpg
 categories: article
 tags: research
 ---
