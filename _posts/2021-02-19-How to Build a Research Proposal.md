@@ -10,8 +10,8 @@ tags: research
 
 Many of us write funding proposals on daily basis - whether they are for research, or industry projects, they all require innovative ideas, and need to convince assessors and sponsors about impact or return of investment to support the proposal.
 
-> Thoughts become things. If you see it in your mind, you will hold it in your hand. 
-> - Bob Proctor.
+    > "Thoughts become things. If you see it in your mind, you will hold it in your hand. 
+    > - Bob Proctor.
 
 However, to make an idea a reality, first step is to have a communication plan, either in form of pitch, grant proposal, or a story. This is not a trivial task, and requires lots of thinking and brain storming.
 
