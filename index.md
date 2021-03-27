@@ -46,15 +46,18 @@ layout: home
 
 - Event [6th Australia-Spain Research Forum BIG DATA SRAP-IEAP](https://srap-ieap.org/programa-completo-e-inscripcion-on-line-para-el-srap-ieap-forum-2020-big-data/)
   - Invited talk: [Visual Microscope on Big Data - Expanding Perception and Interaction through Visual Analytics Approaches](https://tomaszbednarz.net/#).
+  <br /><br />
 
 - DARK EDEN 6-8 November 2020
   - Realtime Utopias: Demoscene, creativity driven by limitations.
   - "In that Tyrant's pow'r": Artbots and collisions with social crisis.
+  <br /><br />
 
 - [SIGGRAPH 2020](https://s2020.siggraph.org/), August 2020:
   - Through Digital Innovation Angle in Australasia. BoF.
   - Immersive and Interactive Experiences. BoF.
   - [Double Vision: Digital Twin applications within Extended Reality](https://dl.acm.org/doi/abs/10.1145/3388529.3407313). Appy Hour.
+  <br /><br />
 
 - ARC Linkage project with Opera Australia on the topic *Transforming rehearsal design using an interactive spatial aesthetic*. Total funding $562k.
 
@@ -68,6 +71,7 @@ layout: home
   - [SoS](http://sa2019.conference-program.com/presentation/?id=artg_154&sess=sess136). Art Gallery.
   - [Non-Euclidean Embeddings for Graph Analytics and Visualisation](https://doi.org/10.1145/3355056.3364585). Poster.
   - SIGGRAPH Asia for Beginners. IRC Panel.
+  <br /><br />
 
 - EPICentre's [Multi-Modal High-End Visualization System](https://epicentre.matters.today/hevs) wins **BEST DEMO Award** at the [ACM SIGGRAPH VRCAI 2019](https://vrcai.siggraph.org/), 14-16 November 2019, Brisbane, Australia.
 
@@ -79,6 +83,7 @@ layout: home
   - [HoloCity - Exploring the use of augmented reality cityscapes for collaborative understanding of high-volume urban sensor data](https://doi.org/10.1145/3359997.3365734).
   - [Containerisation as a method for supporting multiple VR visualisation platforms from a single data source](https://doi.org/10.1145/3359997.3365732).
   - [Multi-Modal High-End Visualization System](https://doi.org/10.1145/3359997.3365731).
+  <br /><br />
 
 - **KEYNOTE**: [25th ACM Symposium on Virtual Reality and Technology (VRST) 2019](http://vrst.acm.org/vrst2019/#keynotes), 12-15 November 2019, Sydney, Australia.
 
