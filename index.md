@@ -42,6 +42,7 @@ layout: home
   - [SIGGRAPH Asia for Beginners](https://www.facebook.com/1637237733161220/videos/726708631590421). BoF.
   - Overview of the Siggraph Immersive and Interactive Experiences Committee. BoF.
   - Extended Reality and Education (ED-XR 2020 meeting). BoF.
+  <br />
 
 - Event [6th Australia-Spain Research Forum BIG DATA SRAP-IEAP](https://srap-ieap.org/programa-completo-e-inscripcion-on-line-para-el-srap-ieap-forum-2020-big-data/)
   - Invited talk: [Visual Microscope on Big Data - Expanding Perception and Interaction through Visual Analytics Approaches](https://tomaszbednarz.net/#).
