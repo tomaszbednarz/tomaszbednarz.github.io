@@ -41,12 +41,12 @@ education:
     url: https://www.acu.edu.au/about-acu/faculties-directorates-and-staff/faculty-of-law-and-business/peter-faber-business-school
     time: 2018
     details:
-  - degree: Elements of ICA40405 Certificate IV in Information Technology
-    university: Barrier Reef Institute of TAFE
-    location: Townsville, Australia
-    url: https://tafeqld.edu.au/courses/study-locations/north-queensland/index.html?
-    time: 2008
-    details:
+#  - degree: Elements of ICA40405 Certificate IV in Information Technology
+#    university: Barrier Reef Institute of TAFE
+#    location: Townsville, Australia
+#    url: https://tafeqld.edu.au/courses/study-locations/north-queensland/index.html?
+#    time: 2008
+#    details:
   - degree: Master of Science | Physics
     university: AGH University of Science and Technology, Faculty of Physics and Applied Computer Science
     location: Krakow, Poland
