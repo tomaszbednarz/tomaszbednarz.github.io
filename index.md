@@ -26,6 +26,8 @@ layout: home
 
 # Highlights 
 
+- New journal paper is published: G F Clark, J Gacutan, R Lawther, E L Johnston. H Tait, To Bednarz (2021). A visualization tool for citizen-science marine debris big data. Water International. [Download DOI](https://doi.org/10.1080/02508060.2021.1888495).
+
 - Invited to be part of Panel [Real-Time @ SIGGRAPH 2021](https://realtimeconference.com/program-april-2021/) at very amazing RTC2021 RealTime Conference.
 
 - Our OzCHI'20 paper: [Creating 3D worlds through storytelling and narration](https://dl.acm.org/doi/10.1145/3441000.3441028).
