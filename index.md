@@ -26,7 +26,7 @@ layout: home
 
 # Highlights 
 
-- Invited to be part of Panel [Real-Time @ SIGGRAPH 2021](https://realtimeconference.com/program-april-2021/) as part of amazing RTC2021 RealTime Conference.
+- Invited to be part of Panel [Real-Time @ SIGGRAPH 2021](https://realtimeconference.com/program-april-2021/) at very amazing RTC2021 RealTime Conference.
 
 - Our OzCHI'20 paper: [Creating 3D worlds through storytelling and narration](https://dl.acm.org/doi/10.1145/3441000.3441028).
 
