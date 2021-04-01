@@ -18,7 +18,7 @@ sections:
     title: Welcome!
     content: |-
         My name is Tomasz Bednarz - welcome to my Personal Website.
-        I have backround is in applied computer science, physics, visualisation, computer graphics, HCI, simulation, modelling, CFD, games development, AI, computational platforms.
+        I have backround in applied computer science, physics, visualisation, computer graphics, HCI, simulation, modelling, CFD, games development, AI, computational platforms.
         I am passionate about technology, digital innovation, conscious change leadership, growth mindset, business management and development, future science and technology.
         I am also a demoscener, long term #SIGGRAPH volunteer, author of 100+ research publications, events organiser and artist-scientist.
 layout: home
