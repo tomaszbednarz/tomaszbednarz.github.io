@@ -5,6 +5,7 @@ title: "Blog"
 ---
 
 <br />
+<script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script> 
 <div class="row" data-masonry='{"percentPosition": true }'>
   {% for post in site.posts %}
   <div class="col-sm-6 col-lg-4 mb-4">
@@ -32,10 +33,3 @@ title: "Blog"
   </div>
   {% endfor %}
 </div>
-<script async src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"></script> 
-
-
-
-
-
-
