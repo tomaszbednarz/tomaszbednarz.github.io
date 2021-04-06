@@ -26,6 +26,8 @@ layout: home
 
 # Highlights 
 
+- [Collaborative Conference on Computational and Data Intensive Science (C3DIS)](http://www.c3dis.com/) will take place on 5-9 July, 2021, and will be delivered fully online. 
+
 - New journal paper is published: G F Clark, J Gacutan, R Lawther, E L Johnston. H Tait, T Bednarz (2021). A visualization tool for citizen-science marine debris big data. Water International. [Download DOI](https://doi.org/10.1080/02508060.2021.1888495).
 
 - Invited to be part of Panel [Real-Time @ SIGGRAPH 2021](https://realtimeconference.com/program-april-2021/) at very amazing RTC2021 RealTime Conference.
