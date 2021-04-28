@@ -26,6 +26,8 @@ layout: home
 
 # Highlights 
 
+- Our new publication [Generative Adversarial Networks–Enabled Human–Artificial Intelligence Collaborative Applications for Creative and Design Industries: A Systematic Review of Current Approaches and Trends](https://doi.org/10.3389/frai.2021.604234) is available online.
+
 - [Collaborative Conference on Computational and Data Intensive Science (C3DIS)](http://www.c3dis.com/) will take place on 5-9 July, 2021, and will be delivered fully online. 
 
 - New journal paper is published: G F Clark, J Gacutan, R Lawther, E L Johnston. H Tait, T Bednarz (2021). A visualization tool for citizen-science marine debris big data. Water International. [Download DOI](https://doi.org/10.1080/02508060.2021.1888495).
