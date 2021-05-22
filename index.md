@@ -54,7 +54,7 @@ layout: home
   - Extended Reality and Education (ED-XR 2020 meeting). BoF.
   <br /><br />
 
-- Event [6th Australia-Spain Research Forum BIG DATA SRAP-IEAP](https://srap-ieap.org/programa-completo-e-inscripcion-on-line-para-el-srap-ieap-forum-2020-big-data/)
+<!-- - Event [6th Australia-Spain Research Forum BIG DATA SRAP-IEAP](https://srap-ieap.org/programa-completo-e-inscripcion-on-line-para-el-srap-ieap-forum-2020-big-data/)
   - Invited talk: [Visual Microscope on Big Data - Expanding Perception and Interaction through Visual Analytics Approaches](https://tomaszbednarz.net/#).
   <br /><br />
 
@@ -62,7 +62,7 @@ layout: home
   - Realtime Utopias: Demoscene, creativity driven by limitations.
   - "In that Tyrant's pow'r": Artbots and collisions with social crisis.
   <br /><br />
-
+-->
 - [SIGGRAPH 2020](https://s2020.siggraph.org/), August 2020:
   - Through Digital Innovation Angle in Australasia. BoF.
   - Immersive and Interactive Experiences. BoF.
