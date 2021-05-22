@@ -26,6 +26,8 @@ layout: home
 
 # Highlights 
 
+- Our new publication [Explainable AI and Reinforcement Learning - A Systematic Review of Current Approaches and Trends](https://doi.org/10.3389/frai.2021.550030) is available online.
+
 - Our new publication [Generative Adversarial Networks–Enabled Human–Artificial Intelligence Collaborative Applications for Creative and Design Industries: A Systematic Review of Current Approaches and Trends](https://doi.org/10.3389/frai.2021.604234) is available online.
 
 - [Collaborative Conference on Computational and Data Intensive Science (C3DIS)](http://www.c3dis.com/) will take place on 5-9 July, 2021, and will be delivered fully online. 
