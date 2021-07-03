@@ -246,6 +246,16 @@ awards:
     description:
 
 professional-activities:
+  - name: C3DIS 2021 Conference Chair
+    body: Collaborative Conference on Computational and Intensive Data Science 2021 
+    time: 6-8 July, 2021
+    url: http://www.c3dis.com/
+    description:
+  - name: AI and Cyber for SME Growth Symposium Co-Chair
+    body: CSIRO
+    time: 22-24 June, 2021
+    url: https://wp.csiro.au/ai-cyber/ 
+    description:
   - name: ACM SIGGRAPH External Relations Committee Chair
     body: ACM SIGGRAPH External Relations 
     time: 2020 - 2021
