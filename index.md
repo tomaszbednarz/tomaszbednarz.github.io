@@ -38,7 +38,7 @@ layout: home
 
 - Our OzCHI'20 paper: [Creating 3D worlds through storytelling and narration](https://dl.acm.org/doi/10.1145/3441000.3441028).
 
-- [Museum of Applied Arts and Sciences (MAAS) Visiting Research Fellow in 2021](https://maas.museum/).
+- [Museum of Applied Arts and Sciences (MAAS) Visiting Research Fellow in 2021](https://www.maas.museum/research/visiting-research-fellows/dr-tomasz-bednarz/).
 
 - [WAITRO People's Choice Award: Low cost desalination device to supply potable water for remote areas](https://www.inside.unsw.edu.au/innovation-and-engagement/low-cost-desalination-device-supply-potable-water-remote-areas) - include Digital Twin. Team: Prof David Waite, Prof John Fletcher, A/Prof Tomasz Bednarz, Dr Yuan Wang, Dr Lloyd Lian.
 
